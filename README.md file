@@ -1,0 +1,25 @@
+# 🖥️ Task 7 – Monitor System Resources using Netdata
+
+## 📌 Objective
+The goal of this task was to install and run **Netdata**, a lightweight and open-source monitoring tool, in order to monitor real-time system performance metrics such as CPU, memory, disk usage, and Docker containers. The task also involved exploring Netdata’s **dashboard, alerts, and logs**.
+
+---
+
+## ⚡ Steps Performed
+
+### 1. Deployment of Netdata
+Netdata was deployed using Docker. Once the container was running, the monitoring service was available at:
+
+http://localhost:19999
+This URL opened the **Netdata Dashboard**, which provides a rich set of performance metrics updated in real time.
+
+### 2. Exploring the Dashboard
+After launching the dashboard in the browser, we observed:
+- **CPU Usage** – real-time utilization across all CPU cores.  
+- **Memory Usage** – details of RAM and swap usage.  
+- **Disk I/O** – read/write activity and performance trends.  
+#Alerts are shown directly on the dashboard and highlight potential issues such as high CPU usage, memory pressure, or disk bottlenecks.
+### Exploring Logs
+
+
+
