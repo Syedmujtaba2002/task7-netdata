@@ -1,0 +1,23 @@
+1. Check Docker Version
+docker --version
+2. Run Netdata Container
+docker run -d --name=netdata -p 19999:19999 netdata/netdata
+3.Check Running Containers
+docker ps
+4. Check All Containers (including stopped)
+docker ps -a
+5. Inspect Container Details
+docker inspect netdata
+# or by ID
+docker inspect 3f86b7511c0c
+6. View Container Logs
+docker logs netdata
+7. Stop a Container
+docker stop netdata
+8. Remove (Delete) a Container
+docker rm netdata
+9. List Docker Images
+docker images
+10. Remove an Image
+docker rmi netdata/netdata
+
